@@ -11,6 +11,7 @@ public class Test implements Serializable {
         int choice = 1;
         String authorName;
         Scanner in = new Scanner(System.in);
+        System.out.println("версия для проверки");
         File pathDirectory = new File("TextFiles");
         if (!pathDirectory.exists()){
             pathDirectory.mkdir();
